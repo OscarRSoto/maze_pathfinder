@@ -12,4 +12,4 @@ import pytest
 def test_maze(archivo, objetivo):
     m = maze.Maze(archivo)
     m.solve
-   assert m.goal==objetivo "sample text"
+    assert m.goal==objetivo 
