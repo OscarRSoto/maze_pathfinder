@@ -8,7 +8,7 @@ import pytest
                           ('maze4.txt',(1, 1)),
                           ('maze5.txt',(18, 25))
                           ])
-def test_prueba(maze_name, objetivo):
+def test_maze(maze_name, objetivo):
     m = maze.Maze(maze_name)
     m.solve
     assert m.goal == objetivo
